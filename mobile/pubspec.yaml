@@ -1,0 +1,46 @@
+name: ravana_app
+description: "Ravana 2.0 - Ayurvedic E-Channeling System"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.2.3
+  provider: ^6.1.2
+  http: ^1.2.0
+  dio: ^5.4.0
+  intl: ^0.19.0
+  cached_network_image: ^3.3.1
+  pdf: ^3.11.0
+  image_picker: ^1.0.7
+  file_picker: ^8.1.2
+  firebase_core: ^3.6.0
+  firebase_messaging: ^15.1.3
+  google_maps_flutter: ^2.10.0
+  geolocator: ^13.0.2
+  url_launcher: ^6.3.1
+  flutter_secure_storage: ^10.0.0
+  flutter_riverpod: ^2.6.1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.0
+  logger: ^2.4.0
+  image_picker_for_web: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.4.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
